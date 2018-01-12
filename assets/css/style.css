@@ -1,0 +1,239 @@
+/*First page*/
+
+* {
+	font-family: Arial, 'Helvetica Neue', Helvetica, 'sans-serif';
+	font-size: 16px;
+	color: #666666;
+}
+
+header{
+	height: 95px;
+	font-family:'Georgia', 'Times', 'Times New Roman', 'serif'; /*this part is not working*/
+	font-size: 28px;
+	background-color: white;
+	border-bottom-style: solid;
+    border-bottom-color: #d9d9d9;
+    border-bottom-width: 2px;
+
+}
+
+#name{
+	font-size: 28px;
+	font-weight: bold;
+	font-family: Georgia, 'Times', 'Times New Roman', 'serif';
+	padding:30px 20px 20px 20px; 
+	height: 45px;
+	width: 325px;
+	background-color: #4aaaa5;
+	color: white;
+	display: inline-block;
+	margin-left: 150px;
+}
+
+#info{
+	
+	float: right;
+	display: inline-block;
+	right: 0px;
+	width: 300px;
+	text-align: center;
+	padding: 35px 20px 20px 20px;
+	margin-right: 325px;
+}
+
+.link{
+	text-decoration: none;
+}
+
+body{
+	background-image: url("../images/concrete_seamless.png");
+	margin: 0px;
+}
+
+#about-me{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 28px;
+	font-weight: bold;
+	color: #4aaaa5;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	border-bottom-style: solid;
+    border-bottom-color: #d9d9d9;
+    border-bottom-width: 2px;
+}
+
+#my-picture{
+	float: left;
+	width:220px;
+	height:200px;
+	padding-bottom: 25px;
+	padding-right: 25px;
+}
+
+#introduction{
+	float: left;
+	width: 325px;
+	margin-top: 0px;
+}
+
+.introduction{
+	margin-top: 0px;
+}
+
+#main{
+	width: 580px;
+	height: 375px;
+	padding: 30px;
+	background-color: white;
+	margin-top: 40px;
+	margin-left: 150px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	display: inline-block;
+	border-style: solid;
+	border-color: #e6e6e6;
+	border-width: 1.5px;
+}
+
+#connect{
+	float: right;
+	width: 230px;
+	padding: 20px;
+	background-color: white;
+	margin-top: 40px;
+	margin-right: 350px;
+	position: static;
+	border-style: solid;
+	border-color: #e6e6e6;
+	border-width: 1.5px;
+}
+
+#connect-with-me{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: #4aaaa5;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	border-bottom-style: solid;
+    border-bottom-color: #e6e6e6;
+    border-bottom-width: 1.5px;
+}
+
+#github{
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	display: inline-block;
+	float: left;
+}
+
+#linkedin{
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: inline-block;
+	float: left;
+}
+
+#stackoverflow{
+	padding: 10px;
+	float: left;
+	display: inline-block;
+}
+
+footer{
+	color: #e6e6e6;
+	font-size: 13px;
+	text-align: center;
+	padding-top: 30px;
+	height: 50px;
+	background: #808080;
+	border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 8px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+/* contact page*/
+
+#contact{
+	width: 580px;
+	height: 450px;
+	padding: 30px;
+	background-color: white;
+	margin-top: 40px;
+	margin-left: 150px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	display: inline-block;
+	border-style: solid;
+	border-color: #e6e6e6;
+	border-width: 1.5px;
+}
+
+.data{
+	width: 580px;
+}
+
+.message{
+	width: 580px;
+	height: 130px;
+}
+
+#button{
+	padding: 10px;
+	width: 85px;
+	text-align: center;
+	background-color: #4aaaa5;
+	color: white;
+	font-weight: bold;
+	margin-top: 15px;
+	border: 0px;
+}
+
+
+/*Portfolio*/
+
+.pimages{
+	width: 300px;
+	height: 200px;
+	padding: 11px;
+	float: left;
+		
+}
+
+#portfolio{
+	width: 650px;
+	height: 750px;
+	padding: 25px 15px 15px 15px;
+	background-color: white;
+	margin-top: 40px;
+	margin-left: 150px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	display: inline-block;
+	border-style: solid;
+	border-color: #e6e6e6;
+	border-width: 1.5px;
+	margin-bottom: 150px;
+}
+
+.gallery{
+	width: 260px;
+	
+	text-align: center;
+	background-color: #4aaaa5;
+	color: white;
+	position: relative;
+	top: -80px;
+	
+	
+
+	}
